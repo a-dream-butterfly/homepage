@@ -1,0 +1,16 @@
+{
+  "name": "myHomePage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-autobar": "boboidream/vuepress-bar"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": "https://github.com/a-dream-butterfly/homepage.git",
+  "author": "OS0day <os0day@qq.com>"
+}
