@@ -13,6 +13,6 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.STATIC_BLOG_WEBSITE }}
         TARGET_REPO: a-dream-butterfly/homepage
         TARGET_BRANCH: main
-        BUILD_SCRIPT: yarn && yarn build
+        BUILD_SCRIPT: yarn docs:dev && yarn docs:build
         BUILD_DIR: docs/.vuepress/dist
         CNAME: https://home.os0day.cn
